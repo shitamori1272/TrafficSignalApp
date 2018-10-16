@@ -14,6 +14,7 @@
 		71A25E10215D41B200544DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A25E0E215D41B200544DC9 /* LaunchScreen.storyboard */; };
 		71A25E1B215D41B200544DC9 /* TrafficSignalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A25E1A215D41B200544DC9 /* TrafficSignalAppTests.swift */; };
 		71A25E26215D41B200544DC9 /* TrafficSignalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A25E25215D41B200544DC9 /* TrafficSignalAppUITests.swift */; };
+		71A25E34215E923C00544DC9 /* LightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A25E33215E923C00544DC9 /* LightController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		71A25E21215D41B200544DC9 /* TrafficSignalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficSignalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A25E25215D41B200544DC9 /* TrafficSignalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSignalAppUITests.swift; sourceTree = "<group>"; };
 		71A25E27215D41B200544DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A25E33215E923C00544DC9 /* LightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				71A25E05215D41AD00544DC9 /* AppDelegate.swift */,
 				71A25E07215D41AD00544DC9 /* ViewController.swift */,
+				71A25E33215E923C00544DC9 /* LightController.swift */,
 				71A25E09215D41AD00544DC9 /* Main.storyboard */,
 				71A25E0C215D41B200544DC9 /* Assets.xcassets */,
 				71A25E0E215D41B200544DC9 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A25E08215D41AD00544DC9 /* ViewController.swift in Sources */,
+				71A25E34215E923C00544DC9 /* LightController.swift in Sources */,
 				71A25E06215D41AD00544DC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

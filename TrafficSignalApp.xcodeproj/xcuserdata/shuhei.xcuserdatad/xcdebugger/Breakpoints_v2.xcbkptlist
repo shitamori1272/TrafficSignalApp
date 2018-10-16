@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TrafficSignalApp/ViewController.swift"
-            timestampString = "559764162.017417"
+            timestampString = "561373697.132948"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "ViewController"
             landmarkType = "3">
             <Locations>
@@ -77,6 +77,69 @@
                   startingLineNumber = "39"
                   endingLineNumber = "39"
                   offsetFromSymbolStart = "159">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrafficSignalApp/ViewController.swift"
+            timestampString = "561373697.13359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficSignalApp.ViewController.redPickerDataList.getter : Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "TrafficSignalApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuhei/WorkSpace/Swift/TrafficSignalApp/TrafficSignalApp/ViewController.swift"
+                  timestampString = "560616465.774689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficSignalApp.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TrafficSignalApp.ViewController"
+                  moduleName = "TrafficSignalApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuhei/WorkSpace/Swift/TrafficSignalApp/TrafficSignalApp/ViewController.swift"
+                  timestampString = "560616465.777132"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficSignalApp.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TrafficSignalApp.ViewController&gt;"
+                  moduleName = "TrafficSignalApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuhei/WorkSpace/Swift/TrafficSignalApp/TrafficSignalApp/ViewController.swift"
+                  timestampString = "560616465.779242"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "51">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -10,32 +10,52 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    let redPickerDataList = [1,2]
-    
+    @IBOutlet weak var RedPickerView: UIPickerView!
+    let pickerDataArray = Array(1...10)
+    var redValue: Int = 1
+    var yellowValue: Int = 1
+    var blueValue: Int = 1
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+        return 3
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return redPickerDataList.count
+        return pickerDataArray.count
     }
     
     func pickerView(_ pickerView: UIPickerView,
                     titleForRow row: Int,
                     forComponent component: Int) -> String? {
-        return String(redPickerDataList[row])
+        return String(pickerDataArray[row])
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if component == 0{
+            redValue =  pickerDataArray[row]
+        }else if component == 1{
+            yellowValue = pickerDataArray[row]
+        }else{
+            blueValue = pickerDataArray[row]
+        }
     }
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         RedPickerView.delegate = self
         RedPickerView.dataSource = self
     }
 
-    @IBOutlet weak var RedPickerView: UIPickerView!
+ 
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let controller = segue.destination as! LightController
+        //controller.testLabel.text = "success"
+        controller.labelText = "success"
+        controller.redDuration = redValue
+        controller.yellowDuration = yellowValue
+        controller.blueDuration = blueValue
+    }
 }
 
