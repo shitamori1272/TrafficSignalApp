@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711B090221771ACD00EF7F29 /* 信号機のアイコン素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 711B090121771ACD00EF7F29 /* 信号機のアイコン素材.png */; };
 		71A25E06215D41AD00544DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A25E05215D41AD00544DC9 /* AppDelegate.swift */; };
 		71A25E08215D41AD00544DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A25E07215D41AD00544DC9 /* ViewController.swift */; };
 		71A25E0B215D41AD00544DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A25E09215D41AD00544DC9 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		711B090121771ACD00EF7F29 /* 信号機のアイコン素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "信号機のアイコン素材.png"; sourceTree = "<group>"; };
 		71A25E02215D41AD00544DC9 /* TrafficSignalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficSignalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A25E05215D41AD00544DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A25E07215D41AD00544DC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				71A25E33215E923C00544DC9 /* LightController.swift */,
 				71A25E09215D41AD00544DC9 /* Main.storyboard */,
 				71A25E0C215D41B200544DC9 /* Assets.xcassets */,
+				711B090121771ACD00EF7F29 /* 信号機のアイコン素材.png */,
 				71A25E0E215D41B200544DC9 /* LaunchScreen.storyboard */,
 				71A25E11215D41B200544DC9 /* Info.plist */,
 			);
@@ -234,6 +237,7 @@
 			files = (
 				71A25E10215D41B200544DC9 /* LaunchScreen.storyboard in Resources */,
 				71A25E0D215D41B200544DC9 /* Assets.xcassets in Resources */,
+				711B090221771ACD00EF7F29 /* 信号機のアイコン素材.png in Resources */,
 				71A25E0B215D41AD00544DC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

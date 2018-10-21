@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var RedPickerView: UIPickerView!
     let pickerDataArray = Array(1...10)
     var redValue: Int = 1
@@ -45,6 +46,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         // Do any additional setup after loading the view, typically from a nib.
         RedPickerView.delegate = self
         RedPickerView.dataSource = self
+        imageView.image = UIImage(named: "信号機のアイコン素材")
+        self.view.addSubview(imageView)
+
     }
 
  
